@@ -1,0 +1,24 @@
+###
+GET http://localhost:9000/api HTTP/1.1
+###
+POST http://localhost:9000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre":"Ingresada por API request papu",
+    "created_at":"2024-03-07T00:20:19.000Z",
+    "updated_at":"2024-03-07T00:20:19.000Z"
+}
+
+###
+DELETE http://localhost:9000/api/5 HTTP/1.1
+###
+PUT  http://localhost:9000/api/7 HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre":"ACTUALIZADA por API request papu",
+    "created_at":"2024-03-07T00:20:19.000Z",
+    "updated_at":"2024-03-07T00:20:19.000Z"
+}
+
